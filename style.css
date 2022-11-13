@@ -1,0 +1,97 @@
+html{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#box{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
+    background-color:rgb(176, 248, 220);
+    padding:100px
+}
+
+#topo{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+
+
+}
+#img{
+
+height: 150px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color:rgb(218, 155, 197);
+    font-family: 'Happy Monkey', cursive;  
+}
+label{
+    font-family: 'Happy Monkey', cursive;  
+    color:rgb(218, 155, 197);
+    font-size: 30px;
+}  
+#sabor{
+   
+    width: 80%;
+    padding-bottom: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
+    background-color: transparent;
+    border-color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    font-family: 'Happy Monkey', cursive;  
+    color:blueviolet; 
+
+}   
+
+    
+
+#button{
+
+    height: 8%;
+    width: 30%;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: white;
+    color:rgb(147, 91, 173);
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.445);
+    font-family: 'Happy Monkey', cursive;  
+    padding-bottom: 15px;
+    
+}
+#mensagem{
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+    padding-bottom: 50px;
+    color:rgb(218, 155, 197);
+    font-family: 'Happy Monkey', cursive;  
+    
+}
+#listaCompleta{
+
+color:crimson;
+}
+#sorvetePronto{
+
+    color:rgb(147, 91, 173);
+}

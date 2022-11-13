@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fábrica de Sorvetes</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@100&family=Happy+Monkey&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="box">
+        <div id="topo">
+            <img id="img" src="sorvete.png">
+            <h1>Fábrica de Sorvetes</h1>
+            <label>Digite seu sabor aqui:</label><br>
+            <input type="text" id="sabor"><br><br>
+        </div>
+
+        <div id="meio">
+            <button id="button" onclick="Adicionar()">Adicionar Sabor</button>
+            <button id="button" onclick="Remover()">Remover Sabor</button>
+            <button id="button" onclick="Finalizar()">Finalizar Pedido</button><br><br>
+        </div>
+        
+        <div id="mensagem">  
+            <div id="listaSabores" type="text"></div><br>
+            <div id="listaCompleta" type="text"></div><br>
+            <div id="sorvetePronto" type="text"></div><br>
+        </div>
+
+    </div>
+
+    <script src="sorvete.js"></script>
+</body>
+</html>
